@@ -10,6 +10,12 @@ h1,h2{
 div{
     background-color: white;
 }
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration-line: none;
+}
 .player_one{
     display: flex;
     flex-direction: column;
