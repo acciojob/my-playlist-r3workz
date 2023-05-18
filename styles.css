@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+body{
+    background-color: #cccccc;
+}
+h1,h2{
+    position: relative;
+    left: 50%;
+    transform: translate(-10%,0);
+}
+div{
+    background-color: white;
+}
+.player_one{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.player_two{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,0);
+    border: 1px solid black;
+    border-radius: 5px;
+}
