@@ -3,6 +3,7 @@ body{
     background-color: #cccccc;
 }
 h1,h2{
+	text-align: center;
     position: relative;
     left: 50%;
     transform: translate(-10%,0);
